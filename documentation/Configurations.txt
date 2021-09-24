@@ -1,0 +1,86 @@
+# 1
+-mode
+enc
+-key
+5
+-in
+src/resources/input/input1.txt
+-alg
+shift
+-out
+src/resources/output/output1.txt
+
+# 2
+-mode
+dec
+-key
+5
+-in
+src/resources/input/input2.txt
+-alg
+shift
+-out
+src/resources/output/output2.txt
+
+# 3
+-mode
+enc
+-key
+100
+-in
+src/resources/input/input3.txt
+-alg
+unicode
+-out
+src/resources/output/output3.txt
+
+# 4
+-mode
+dec
+-key
+100
+-in
+src/resources/input/input4.txt
+-alg
+unicode
+-out
+src/resources/output/output4.txt
+
+# 5
+-in
+src/resources/input/input5.txt
+-alg
+unicode
+-out
+src/resources/output/output5.txt
+
+# 6
+-in
+src/resources/input/input6.txt
+-data
+String
+-alg
+unicode
+-out
+src/resources/output/output6.txt
+
+# 7
+-in
+src/resources/input/input6.txt
+-data
+-alg
+unicode
+-out
+src/resources/output/output6.txt
+
+# 8
+-in
+src/resources/input/
+-data
+-data
+-data
+-data2
+-alg
+unicode
+-out
+src/resources/output/output6.txt
